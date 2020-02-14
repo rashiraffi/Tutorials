@@ -1,7 +1,7 @@
 #!/usr/bin/python3  
 import smtplib  
-sender_mail = 'techietraveller247@gmail.com'  
-receivers_mail = ['rashi1281@gmail.com']  
+sender_mail = 'email'  
+receivers_mail = ['email']  
 message = """From: From Person %s 
 To: To Person %s 
 Subject: Sending SMTP e-mail  
@@ -9,7 +9,7 @@ This is a test e-mail message.
 """%(sender_mail,receivers_mail)
 print("Try")
 try:  
-   password = 'techie123';
+   password = 'password';
    print("1") 
    smtpObj = smtplib.SMTP('gmail.com',587)  
    print("2")
