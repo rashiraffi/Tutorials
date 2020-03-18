@@ -1,9 +1,11 @@
-a=[]
-n=int(input())
-s=input()
-for i in range(0,n):
-    a.append(int(s[i*2]))
-s=int(input())
-s=a[s-1]
-a.sort()
-print(a.index(s)+1)
+def solution (R, L):
+    a=set()
+    for i in range (L,R+1):
+        for j in range (0,i):
+            if(i%j==0):
+                if(i not in a):
+                    a.add(i)
+
+    return i
+p=solution(4,2)
+print(p)
