@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Student Object</Title>
+    </head>
+    <body>
+        <p>Name and Mark  = <span id="one"></span></p>
+        <script>
+            var student ={
+                Name : "Rashi M",
+                Age : 21,
+                Gender : "Male",
+                Mark : [48,49],
+                displayNameAndMark : function()
+                {
+                    total=this.Mark[0]+this.Mark[1];
+                    return (this.Name + " : " + total);
+                }
+            };
+            document.getElementById("one").innerHTML=student.displayNameAndMark();
+        </script>
+    </body>
+</html>
