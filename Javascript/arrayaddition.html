@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Array addition</Title>
+    </head>
+    <body>
+        <p>Sum of the element = <span id="one"></span></p>
+        <script>
+            var num=[];
+            var sm=0;
+            var n = parseInt(prompt("Please enter the number of numbers", ""));
+            for(i=0;i<n;i++)
+            {
+                num.push(parseInt(prompt("Enter Number: ")));
+                sm=sm+num[i];
+            }
+            document.getElementById("one").innerHTML=sm;
+        </script>
+    </body>
+</html>

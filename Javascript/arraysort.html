@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Array addition</Title>
+    </head>
+    <body>
+        <p>Sorted array  = <span id="one"></span></p>
+        <script>
+            var num=[];
+            var n = parseInt(prompt("Please enter the number of numbers", ""));
+            for(i=0;i<n;i++)
+            {
+                num.push(parseInt(prompt("Enter Number: ")));
+            }
+            num.sort();
+            document.getElementById("one").innerHTML=num;
+        </script>
+    </body>
+</html>
