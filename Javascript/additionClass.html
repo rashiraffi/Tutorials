@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Addition class</Title>
+    </head>
+    <body>
+        <p>Addition:: <span id="one"></span></p>
+        <script>
+            class addition {
+                constructor(num1,num2)
+                {
+                    this.firstvalue=num1;
+                    this.secondvalue=num2;
+                }
+                addTwoNum(){
+                    return(this.firstvalue+"+"+this.secondvalue+"="+(this.firstvalue+this.secondvalue));
+                }
+            }
+            EClass = new addition(15,20);
+            document.getElementById("one").innerHTML=EClass.addTwoNum();
+        </script>
+    </body>
+</html>
