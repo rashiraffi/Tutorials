@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiple of 3 and 5</title>
+    </head>
+    <body>
+        <h1>Sum of multiple of 3 = <span id="three"></span></h1>
+        <h1>Sum of multiple of 5 = <span id="five"></span></h1>
+    </body>
+    <script>
+        var three=0;
+        var five=0;
+        for(var i = 0;i<100;i++)
+        {
+            if(i%3==0)
+                three=i+three;
+            if(i%5==0)
+                five=i+five;
+        }
+        document.getElementById("three").innerHTML=three;
+        document.getElementById("five").innerHTML=five;
+    </script>
+</html>

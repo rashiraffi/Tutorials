@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Odd or Even</title>
+    </head>
+    <body>
+        <h1>Odd Or Even</h1>
+        <h3><span id="one"></span></h3>
+    </body>
+    <script>
+        var strng='';
+        for(var i = 0;i<=15;i++)
+        {
+            if(i%2==0)
+                strng=(strng + i + ' Is Even <br>');
+            else
+            strng=(strng + i + ' Is Odd <br>');
+        }
+        document.getElementById("one").innerHTML=strng;
+    </script>
+</html>
