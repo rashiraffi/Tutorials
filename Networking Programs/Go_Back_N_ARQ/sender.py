@@ -8,7 +8,7 @@ print("Enter Data")
 for i in range (1,k+1):
   data.append(input())
   sock.sendto(str(data[i-1]).encode(),("127.0.0.1",port))
-  print(str(i+1),"th Packet sent..")
+  print(str(i),"th Packet sent..")
 print("Transmission Finished..")
 
 while(True):
