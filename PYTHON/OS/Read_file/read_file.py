@@ -1,0 +1,15 @@
+file = open("demo.txt")
+print(file.readline())
+print(file.readline())
+print(file.read())
+file.close()
+#--------------------------------------
+file = open("demo.txt")
+print(file.readline())
+print(file.readline())
+file.close()
+file = open("demo.txt")
+print(file.read())
+file.close()
+with open("demo.txt") as file:
+    print(file.read())
