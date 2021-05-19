@@ -18,4 +18,8 @@ void main()
 
   var var_height = 1.8;
   print("Height = $var_height");
+
+  final DOB = "10/02/1999";
+  //Final variables are immutable
+  print("DOB : $DOB");
 }
