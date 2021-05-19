@@ -14,8 +14,8 @@ void main()
   print("Name = $var_name");
 
   var var_age = 23;
-  print("Name = $var_age");
+  print("Age = $var_age");
 
   var var_height = 1.8;
-  print("Name = $var_height");
+  print("Height = $var_height");
 }
