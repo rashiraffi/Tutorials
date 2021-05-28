@@ -7,6 +7,7 @@ void main() {
   print(person1);
   describe1("RRR", 23);
   describe2(name : "RRR", age: 23, height: height);
+  print(msg("RR"));
 }
 
 // Describe is a function with no return
@@ -38,3 +39,7 @@ void describe2({String name = "", int age = 0, double height = 0.0})
   print("Name = $name, Age = $age, Height= $height");
   //Output Name = RRR, Age = 23, Height= 0.0
 }
+
+//Arrow Operator
+String msg(String name) => "Hello, I'm $name";
+//Automatically returns the strings when called
